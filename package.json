@@ -1,0 +1,43 @@
+{
+  "name": "codeiner",
+  "description": "Codeiner starter pack",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm install && gulp serve"
+  },
+  "author": "Maki",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.17.0",
+    "browserify": "^13.1.0",
+    "del": "^2.2.2",
+    "eslint-config-google": "^0.6.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-eslint": "^3.0.1",
+    "gulp-file-include": "^1.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-glob": "^1.0.6",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "require-dir": "^0.3.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "slick-carousel-browserify": "^1.6.12"
+  },
+  "engines": {
+    "node": ">=0.12"
+  }
+}
